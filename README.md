@@ -48,7 +48,7 @@ QR-код c уникальным кодом бронирования, в кот�
 **URL** - https://varlamov-netology-fs-diplom.000webhostapp.com/
 
 ### Доступ к интерфейсу управления залами
-**URL** - https://varlamov-netology-fs-diplom.000webhostapp.com/client  
+**URL** - https://varlamov-netology-fs-diplom.000webhostapp.com/admin  
 **Логин(e-mail)** – varlamov@ya.ru  
 **Пароль** – qwerty;  
 
