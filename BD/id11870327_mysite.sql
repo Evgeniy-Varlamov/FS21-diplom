@@ -168,7 +168,7 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`user_id`, `user_email`, `user_password`) VALUES
-(1, 'varlamov@ya.ru', 'qwerty');
+(1, 'qamid@qamid.ru', 'qamid');
 
 --
 -- Индексы сохранённых таблиц

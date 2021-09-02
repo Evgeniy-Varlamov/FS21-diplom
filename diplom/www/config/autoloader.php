@@ -1,8 +1,8 @@
 <?php
     //define('PATH_ROOT',  $_SERVER['DOCUMENT_ROOT']);
-    const DB_NAME = 'id11870327_mysite';
-    const BD_USER_NAME = "id11870327_admin";
-    const BD_PASSWORD = "admin";
+    const DB_NAME = 'cw24054_qamid';
+    const BD_USER_NAME = "cw24054_qamid";
+    const BD_PASSWORD = "TvmT01UOV5fN";
     const BD_HOST = "localhost";
 
     spl_autoload_register(
