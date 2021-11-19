@@ -7,6 +7,12 @@
     if (!isset($_SESSION['database'])) {
       $_SESSION['database'] = new Database();
     }
+
+    if (isset($_SESSION['halls'])) {unset($_SESSION['halls']);}
+    if (isset($_SESSION['films'])) {unset($_SESSION['films']);}
+    if (isset($_SESSION['seances'])) {unset($_SESSION['seances']);}
+    if (isset($_SESSION['sales'])) {unset($_SESSION['sales']);}
+
     // Список активных залов
     if (!isset($_SESSION['halls'])) {
       $query = "SELECT * FROM halls WHERE `hall_open`='1'";

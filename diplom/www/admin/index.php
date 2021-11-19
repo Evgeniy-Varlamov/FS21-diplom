@@ -7,9 +7,9 @@
   }
   // Отчистим сессию от данных которые могли остаться от работы клиентской части сайта
   if (isset($_SESSION['halls'])) {unset($_SESSION['halls']);}
-  if (isset($_SESSION['films'])) {unset($_SESSION['halls']);}
-  if (isset($_SESSION['seances'])) {unset($_SESSION['halls']);}
-  if (isset($_SESSION['sales'])) {unset($_SESSION['halls']);}
+  if (isset($_SESSION['films'])) {unset($_SESSION['films']);}
+  if (isset($_SESSION['seances'])) {unset($_SESSION['seances']);}
+  if (isset($_SESSION['sales'])) {unset($_SESSION['sales']);}
 ?>
 
 <!DOCTYPE html>
